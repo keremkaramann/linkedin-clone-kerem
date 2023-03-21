@@ -44,3 +44,14 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB7n1KpKOnaIRzWn4cxgNq_3jcD91TZTrc",
+  authDomain: "linkedin-clone-kerem.firebaseapp.com",
+  projectId: "linkedin-clone-kerem",
+  storageBucket: "linkedin-clone-kerem.appspot.com",
+  messagingSenderId: "890104093923",
+  appId: "1:890104093923:web:25b9dd5ed0127ce8b1f9d6",
+  measurementId: "G-9JEGHTHNE2"
+};

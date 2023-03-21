@@ -1,0 +1,85 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login > img {
+  object-fit: contain;
+  height: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-cs > form {
+  display: flex;
+  flex-direction: column;
+}
+.form-cs form input {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.form-cs form button {
+  width: 365px;
+  height: 50px;
+  font-size: large;
+  color: #fff;
+  background-color: #0a66c2;
+  border-radius: 28px;
+  padding: 0 24px;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.form-cs form button:hover {
+  background-color: #084e94;
+  transition: all 0.3s ease-in-out;
+}
+.p-center {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.login-register {
+  color: #0a66c2;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.login-register:hover {
+  background-color: #248ffa47;
+  border-radius: 20px;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+.form-cs p {
+  margin-top: 20px;
+  padding: 8px;
+}
+.show-p {
+  position: relative;
+}
+.show-p p {
+  position: absolute;
+  color: #0a66c2;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  top: -8px;
+  right: 0;
+  cursor: pointer;
+}
+.show-p p:hover {
+  background-color: #248ffa47;
+  border-radius: 20px;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
